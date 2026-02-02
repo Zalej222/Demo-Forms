@@ -1,83 +1,90 @@
-# Demo Forms
+# Demo Forms – HTML & CSS
 
-Jednoduchý **HTML & CSS projekt**, který slouží jako procvičení práce s formuláři, jejich strukturou, stylingem a základním workflow s Gitem a GitHubem.
-
----
-
-## 📌 O projektu
-
-Tento projekt vznikl jako **výukový projekt** zaměřený na:
-
-* správnou strukturu HTML formuláře
-* použití běžných formulářových prvků
-* základní a přehledný styling pomocí CSS
-* pochopení práce se sekcemi (`section`, `ul`, `li`)
-* verzování projektu pomocí **Git & GitHub**
+Tento projekt slouží jako **ukázka práce s HTML formuláři a základním CSS stylováním**.  
+Vznikl jako studijní projekt při učení HTML a CSS.
 
 ---
 
-## 🧩 Použité technologie
+## 🧩 Popis projektu
 
-* **HTML5**
-* **CSS3**
-* **Git**
-* **GitHub**
+Stránka obsahuje **formulář pro zadání uživatelských údajů**, který demonstruje:
 
----
+- správnou strukturu HTML dokumentu
+- práci s různými typy formulářových prvků
+- základní validaci vstupů
+- přehledné a responzivní CSS stylování
 
-## 📝 Formulář obsahuje
-
-* textová pole (`input type="text"`)
-* email (`input type="email"`)
-* heslo (`input type="password"`)
-* číslo a datum
-* výběr z možností (`select`)
-* textové pole (`textarea`)
-* radio buttons
-* checkboxy
-* tlačítko pro odeslání formuláře
+Projekt je zaměřený čistě na **frontend (HTML + CSS)**, bez JavaScriptu a backendu.
 
 ---
 
-## 📂 Struktura projektu
+## 🛠 Použité technologie
 
-```
-Demo-Forms/
-│
-├── index.html
-├── styles.css
-└── README.md
-```
+- **HTML5**
+- **CSS3**
+- Google Fonts (Roboto)
 
 ---
 
-## 🚀 Jak projekt spustit
+## 📝 Použité formulářové prvky
 
-1. Naklonuj repozitář:
-
-   ```bash
-   git clone https://github.com/Zalej222/Demo-Forms.git
-   ```
-2. Otevři složku projektu
-3. Otevři `index.html` v prohlížeči
+- `input type="text"`
+- `input type="email"`
+- `input type="password"`
+- `input type="number"`
+- `input type="date"`
+- `textarea`
+- `select / option`
+- `radio buttons`
+- `checkboxes`
+- `button`
 
 ---
 
-## 🎯 Cíl projektu
+## ✅ Validace formuláře
 
-Cílem projektu je **pochopit základy formulářů v HTML**, naučit se:
+Formulář využívá **HTML validaci**:
 
-* proč je důležitá správná struktura
-* jak se vyhnout layoutovým problémům
-* jak pracovat s formuláři v reálném projektu
+- povinná pole (`required`)
+- minimální délka hesla (`minlength`)
+- omezení rozsahu (`min`, `max`)
+- validace emailu (`type="email"`)
+
+---
+
+## 🎨 Stylování (CSS)
+
+- responzivní layout (media query pro mobilní zařízení)
+- sjednocené styly pro vstupy formuláře
+- zvýraznění aktivních polí (`:focus`)
+- přehledné zarovnání radio buttonů a checkboxů
+- moderní, jednoduchý vzhled
+
+---
+
+## 📱 Responzivita
+
+Formulář se automaticky přizpůsobuje menším obrazovkám  
+(při šířce zařízení menší než 600 px).
+
+---
+
+## 🎯 Účel projektu
+
+- procvičení HTML formulářů
+- pochopení validace bez JavaScriptu
+- ukázka práce s CSS layoutem
+- studijní a portfoliový projekt
+
+---
+
+## 📂 Spuštění projektu
+
+1. Naklonuj repozitář
+2. Otevři soubor `index.html` v prohlížeči
 
 ---
 
 ## 👩‍💻 Autor
 
-Projekt vytvořen jako studijní cvičení během výuky webového vývoje.
-
----
-
-✨ *Projekt slouží k učení a postupnému zlepšování frontend dovedností.*
-# Demo-Forms
+Projekt vytvořen jako součást studia frontendových základů.
